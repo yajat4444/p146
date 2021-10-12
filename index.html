@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity position="1 1 3">
+            <a-camera></a-camera>
+      </a-entity>
+      <a-cylinder position="1.3 0.05 -6" radius="0.5" height="1.5" color=silver></a-cylinder>
+      <a-cylinder position="-0.3 0.05 -6" radius="0.5" height="1.5" color=silver></a-cylinder>
+      <a-cylinder position="-2 2 -6.6" radius="1.5" height="0.5" color=lime></a-cylinder>
+      <a-cylinder position="3 2 -6.6" radius="1.5" height="0.5" color=lime></a-cylinder>
+      <a-cone position="0.54 4.3 -5.4" radius="1.25" color="#EF2D5E"></a-cone>
+      <a-plane position="1.5 -1 -6" rotation="-90 0 0" width="15" height="4" color=yellow></a-plane>
+      <a-sky color="pink"></a-sky>
+      <a-box position="0.53 1.55 -6" height="2.5" width="3" color=cyan></a-box>
+      <a-box position="0.5 3.3 -6" rotation="90 90 0" height="2" color=teal></a-box>
+      <a-sphere position="0 3.3 -5.3" radius="0.3" color=white></a-sphere>
+      <a-sphere position="1 3.3 -5.3" radius="0.3" color=white></a-sphere>
+      <a-entity position="0 0 0" rotation="0 0 0"
+            animation="property: rotation; to: 3 0 0;easing:linear; loop: true; dur: 500">
+            <a-sphere position="0.04  3.1 -5" radius="0.1" color="yellow"></a-sphere>  
+        </a-entity>
+
+        <a-entity position="0.55 1.6 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 0 360;easing:linear; loop: true; dur: 1500">
+        <a-sphere position="0.45 0.45 -5" radius="0.2" color="red"></a-sphere>  
+        </a-entity>
+
+        <a-entity position="0.55 1.6 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 0 360;easing:linear; loop: true; dur: 2200">
+        <a-sphere position="0.25 0.25 -5" radius="0.15" color="blue"></a-sphere>  
+        </a-entity>
+
+        <a-entity position="0.55 1.6 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 0 360;easing:linear; loop: true; dur: 2600">
+        <a-sphere position="0.08 0.08 -5" radius="0.1" color="purple"></a-sphere>  
+        </a-entity>
+
+        <a-entity position="0.55 1.6 0" rotation="0 0 0"
+        animation="property: rotation; to: 0 0 360;easing:linear; loop: true; dur: 1000">
+        <a-sphere position="0.68 0.68 -5" radius="0.22" color="orange"></a-sphere>  
+        </a-entity>
+
+        <a-entity position="0 0 0" rotation="0 0 0"
+        animation="property: rotation; to: 3 0 0;easing:linear; loop: true; dur: 500">
+        <a-sphere position="1.04  3.1 -5" radius="0.1" color="yellow"></a-sphere>  
+    </a-entity>
+    </a-scene>
+  </body>
+</html>
